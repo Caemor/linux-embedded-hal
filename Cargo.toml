@@ -32,3 +32,6 @@ openpty = "0.1.0"
 # we don't need the `Error` implementation
 default-features = false
 version = "0.2.2"
+
+[patch.crates-io]
+embedded-hal = { git = "https://github.com/eldruin/embedded-hal", branch="transactional-i2c" }
